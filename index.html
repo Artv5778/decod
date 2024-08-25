@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Desafio1</title>
+</head>
+<body>
+    <div class ="comeco">
+        <div class="comeco__primeiro">
+            <textarea name = "texto" class="texto" id="texto" cols="30" row="10" placeholder="Digite o texto" ></textarea>
+        </div>
+        <div class ='comeco__segundo'>
+            <p>Apenas letras minusculas e sem acento.</p>
+        </div>
+        <div class="comeco__botoes">
+            <button class = "btn-criptograr" type ="button" onclick="criptografar()">Criptografar</button>
+            <input type="button" class="btn-descriptograr" value = "Descriptografar" onclick="descriptografar()"> 
+        </div>
+
+        <div class="criptografar">
+        <img src="./assets/lupa.png" alt="logo_do_lupa" id="garotolupa" />
+        <div class="texto-criptogado" id="texto-criptogado">
+            <h2 id="comeco__mensagem">Nenhuma mensagem encontrada</h2>
+            <p id="Paragrafo "> Digite o texto que você deseja Criptografar ou Descriptografar</p>
+            <!-- <textarea name = "mensagem" id="mensagem" cols="30" rows="10" class="mensagem"></textarea>  -->
+        </div>
+       <div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
